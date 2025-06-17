@@ -34,12 +34,12 @@
                   <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
                     Cerrar
                   </button>
-                  
+
                 </div>
               </div>
             </div>
           </div>-->
-        <center><button id="btnInstall" aria-label="Install" hidden><i class="fa-solid fa-download"></i> Instalar</button></center> 
+        <center><button id="btnInstall" aria-label="Install" hidden><i class="fa-solid fa-download"></i> Instalar</button></center>
         <main class="container-fluid vh-100 position-relative">
             <section class="position-absolute btn__floating">
                 <ul>
@@ -48,11 +48,11 @@
                             <i class="fa-solid fa-comments"></i>
                         </a>
                     </li>-->
-                    <!--<li class="mt-2">
+                    <li class="mt-2">
                         <a href="https://wa.me/+5491134866838">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
-                    </li>-->
+                    </li>
                 </ul>
             </section>
             <section class="animacion position-absolute w-100 vh-100">
@@ -72,6 +72,7 @@
                     </button>
                 </div>
                 <div class="cnt__tema" id="tema"></div>
+                <div id="stream-status" style="min-height: 20px;"></div>
 
                 <div class="redes">
                     <ul>
@@ -83,13 +84,13 @@
                         <!--<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>-->
                     </ul>
                 </div>
-                <!--<div class="lottie animate__animated animate__fadeIn d-none" id="lottie">
-                    <lottie-player src="./assets/imgs/Q0lVKhfzgM.json" 
-                        background="Transparent" 
-                        speed="1" 
-                        style="width: 150px;" 
-                        direction="1" mode="normal" loop autoplay>
-                    </lottie-player>-->
+                <div class="lottie animate__animated animate__fadeIn" id="lottie">
+                    <lottie-player src="./assets/imgs/Q0lVKhfzgM.json"
+                        background="Transparent"
+                        speed="1"
+                        style="width: 150px;"
+                        direction="1" mode="normal" loop>
+                    </lottie-player>
 
                 </div>
                 <div class="footer position-absolute d-flex justify-content-center align-items-center">
@@ -101,12 +102,8 @@
 
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="./assets/boot/mdb.min.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-        <script src="./assets/conexion/conexion.js"></script>
         <script src="./assets/js/moment.js"></script>
-        <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/main_player.js"></script>
         <script src="./script.js"></script>
         <script src="./install.js"></script>
     </body>
